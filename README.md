@@ -1,26 +1,22 @@
 ![ICEI](images/icei-pucminas.png)
 
-# Nome do projeto
-
-......  COLOQUE AQUI O SEU TEXTO ......
+# CoHábito Inc.
 
 > Descreva, em um ou dois parágrafos, um resumo do projeto (principais objetivos e justificativa).
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1 (com link para Github)](https://github.com/aluno1)
-* [Nome completo do aluno 2 (com link para Github)](https://github.com/aluno2)
-* [Nome completo do aluno 3 (com link para Github)](https://github.com/aluno3)
-* [Nome completo do aluno 4 (com link para Github)](https://github.com/aluno4)
-* [Nome completo do aluno 5 (com link para Github)](https://github.com/aluno5)
+* [Caio Vitor Fernandes](https://github.com/caiovitfernandes)
+* [João Gustavo Pontes](https://github.com/PontesJ)
+* [Pedro Henrique Cunha](https://github.com/PedroHCunhaV)
+* [Savio Luis Martucheli](https://github.com/Smartucheli)
+* [Victor Magalhães de Souza](https://github.com/VictorVM7)
 
 ## Professor responsável
 
-* Nome do(a) professor(a)
+* Amália Soares Vieira de Vasconcelos
 
 ## Gerenciamento do Projeto
-
-......  COLOQUE AQUI O SEU TEXTO (OPCIONAL) ......
 
 > Adicione aqui informações sobre o projeto que será gerenciado. 
 > Indique informações importantes sobre o projeto.
