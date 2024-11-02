@@ -288,15 +288,15 @@ A tabela a seguir, apresente as condições para que o projeto seja iniciado.
 
 | Ambiente                      | Plataforma   | Link de Acesso      | Justificativa                                                     |
 |-------------------------------|--------------|---------------------|-------------------------------------------------------------------|
-| Quadro Kanban                 | Github       | https://github.com  | Centralização e organização do projeto no próprio repositório.    |
-| Repositório de código         | GitHub       | https://github.com  | Fácil gerenciamento e versionamento                               |
-| Protótipo de Baixa Fidelidade | Figma        | https://figma.com   | Centralização dos componentes e interface                         |
-| Protótipo de Alta Fidelidade  | Figma        | https://figma.com   | Centralização dos componentes e interface                         |
-| Documentos Textuais           | Google Drive | Google Drive        | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
-| Elementos Gráficos do Projeto | Google Drive | Google Drive        | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
+| Quadro Kanban                 | Github       | [https://github.com](https://github.com/orgs/ICEI-PUC-Minas-PCO-SI/projects/67)  | Centralização e organização do projeto no próprio repositório.    |
+| Repositório de código         | GitHub       | [https://github.com](https://github.com/CoHabito-Dev/Front)  | Fácil gerenciamento e versionamento                               |
+| Protótipo de Baixa Fidelidade | Figma        | [https://figma.com](https://www.figma.com/design/PMHY18FZ2DFzoEmZaoDiQV/CoH%C3%A1bito?node-id=0-1&t=ol0XnXTO2z9MjhrO-1)   | Centralização dos componentes e interface                         |
+| Protótipo de Alta Fidelidade  | Figma        | [https://figma.com ](https://www.figma.com/design/CO5nvxVLFkHneTKqT3JdrQ/Untitled?node-id=1-2&t=8I3wmmeimike07Fe-1)  | Centralização dos componentes e interface                         |
+| Documentos Textuais           | Google Drive | [Google Drive](https://drive.google.com/drive/folders/1Jz2V39s8iSs3_3gI8w8lAHO1DYeanUkG?usp=sharing) | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
+| Elementos Gráficos do Projeto | Google Drive | [Google Drive](https://drive.google.com/drive/folders/1BWYyt4XrZOIscKN7GgamL3Jozix7Un6W?usp=sharing)        | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
 | EAP / WBS                     | Draw.io      | Draw.io             | Criação de estrutura analítica graficamente grátis e de fácil usabilidade |
 | Cronograma do Projeto         | MS Project   |                     | Ferramenta de altíssima qualidadde para gerenciar projetos e recursos |
-| Matriz RACI                   | Google Docs  | Google Docs         | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
+| Matriz RACI                   | Google Docs  | [Google Docs](https://drive.google.com/file/d/11M9XY38XE75GcS0rGfoRquVka7aNjX_W/view?usp=sharing)   | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
 
 ```diff
 + Tarefa 03:
