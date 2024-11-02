@@ -123,147 +123,117 @@ Com isso, a nossa solução se baseia em alguns benefícios que justificam a inc
 
 ## Estimativa de Custo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> A avaliação da viabilidade econômica busca determinar a sustentabilidade financeira e o retorno sobre o investimento do empreendimento. 
-> Este processo envolve a análise dos custos associados ao projeto, incluindo investimentos iniciais, despesas operacionais e potenciais custos de manutenção. 
-> Simultaneamente, são examinados os benefícios esperados, como receitas, economias de custos e ganhos tangíveis e intangíveis. 
-> A elaboração de projeções financeiras realistas e a aplicação de métricas como o Valor Presente Líquido (VPL) e a Taxa Interna de Retorno (TIR) contribuem para uma avaliação abrangente da viabilidade econômica do projeto. 
-> Este processo permite que os gestores de projeto e as partes interessadas tomem decisões informadas sobre a continuidade, ajustes ou mesmo a interrupção do projeto, garantindo uma alocação eficiente de recursos e maximizando os benefícios econômicos esperados.
-
-......  ATUALIZE OS ITENS DE CUSTO DO SISTEMA. ADICIONE NOVOS OU SUBDIVIDA ITENS, CASO NECESSÁRIO ......
-
-| Item de Custo           | Descrição | Qtd. horas | Valor / hora | Valor total |
-|-------------------------|-----------|------------|--------------|-------------|
-| Recursos Humanos        |           |            |              |             |
-| Hardware                |           |            |              |             |
-| Serviços de Rede        |           |            |              |             |
-| Hospedagem e Nuvem      |           |            |              |             |
-| Software de terceiros   |           |            |              |             |
-| Serviços e treinamento  |           |            |              |             |
-| **Total Geral**         |           |            |              |             |
-
+| Item de custo                       | Qtd. horas | Valor / hora | Valor total |
+|-------------------------------------|------------|--------------|-------------|
+| 4.1 Recursos Humanos (especifique): | 520        | 262,97       | 136.744,40  |
+| 4.2 Hardware (especifique):         | -          | -            | -           |
+| 4.3 Rede e serviços de hospedagem:  | 2280       | 2,78         | 6.338,40    |
+| 4.4 Software de terceiros:          | -          | -            | -           |
+| 4.5 Serviços e treinamento:         | -          | -            | -           |
+| 4.6 Total Geral:                    | 2800       | 265,75       | 143.082,80  |
 
 ## Estimativa de Prazo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> A estimativa de prazo orienta tanto o cliente quanto a equipe de desenvolvimento do projeto em termos do tempo necessário para a conclusão do projeto como um todo. 
-> Esta estimativa possibilita a criação de um cronograma realista e viável, permitindo o planejamento adequado das fases do projeto, alocação de recursos de maneira eficiente e antecipação de eventuais desafios.
-> Uma estimativa precisa orienta a execução do projeto, contribui para a gestão de expectativas e para o estabelecimento de metas alcançáveis.
-
-> Indique:
-> * Prazo previsto (em horas) 
-> * Data de início
-> * Data de término
-
-* Prazo previsto (em horas): XX horas
-* Data de início: __ / __ / _____
-* Data de término: __ / __ / _____
+* Prazo previsto (em horas): 520 horas
+* Data de início: 29/08/2024
+* Data de término: 01/12/2024
 
 ## Escopo Preliminar e Premissas
 
-> Os requisitos preliminares fornecem uma visão inicial do escopo, funcionalidades-chave e as expectativas a serem atendidas. 
-> 
-> ***A quantidade mínima de requisitos a serem preenchidos nas seções abaixo não incluem os exemplos previamente fornecidos.***
+### O que será feito (escopo do projeto)
+Desenvolvimento de aplicação de gerenciamento de tarefas domésticas para repúblicas, grupos familiares, cônjuges e colegas de quarto.
+
+### O que não será feito no projeto (contra-escopo)
+A aplicação não se refere a gerenciamento de tarefas individuais ou agendas.
 
 ## Declaração de Escopo
 
-> Você pode utilizar como referência o seguinte documento:
-- [Declaração de Escopo](artefatos/declaracao-escopo.docx)
-
-> Enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 ### Requisitos Funcionais
-
-......  ATUALIZE OS REQUISITOS FUNCIONAIS DO SISTEMA (MÍNIMO 10) ......
 
 A tabela a seguir apresenta os requisitos funcionais do projeto. 
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                         | Prioridade |
+|--------|------------------------------------------------|------------|
+| RF-001 | Cadastrar tarefas                              | ALTA       |
+| RF-002 | Excluir tarefas                                | MÉDIA      |
+| RF-003 | Alterar tarefas                                | MÉDIA      |
+| RF-004 | Visualizar tarefas                             | BAIXA      |
+| RF-005 | Cadastrar casas                                | ALTA       |
+| RF-006 | Excluir casas                                  | MÉDIA      |
+| RF-007 | Alterar casas                                  | MÉDIA      |
+| RF-008 | Visualizar casas                               | BAIXA      |
+| RF-009 | Cadastrar usuários                             | ALTA       |
+| RF-010 | Excluir usuários                               | MÉDIA      |
+| RF-011 | Alterar usuários                               | MÉDIA      |
+| RF-012 | Visualizar usuários                            | BAIXA      |
+| RF-013 | Colocar prioridade na tarefa                   | ALTA       |
+| RF-014 | Compartilhar link da casa para outros usuários | ALTA       |
+| RF-015 | Escolher tarefa a executar                     | ALTA       |
+| RF-016 | Alocar usuário para tarefa                     | ALTA       |
+
 
 ### Requisitos Não Funcionais
 
-......  ATUALIZE OS REQUISITOS NÃO FUNCIONAIS DO SISTEMA (MÍNIMO 5) ......
-
 A tabela a seguir apresenta os requisitos não funcionais do projeto. 
 
-|ID     | Descrição do Requisito                                            |Prioridade |
-|-------|-------------------------------------------------------------------|-----------|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA     | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s             | BAIXA     | 
+|ID     | Descrição do Requisito                                                                                                 |Prioridade |
+|-------|------------------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel                                                      | MÉDIA     | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s                                                                  | BAIXA     |
+|RNF-003| O sistema deve ser desenvolvido utilizando Flutter como tecnologia no front-end                                        | ALTA      | 
+|RNF-004| O sistema deve possuir simplicidade suficiente para que usuário inexperientes em tecnologia consigam usá-lo            | ALTA      | 
+|RNF-005| O sistema deve possuir uma arquitetura cliente-servidor hospedada na internet                                          | BAIXA     | 
 
 
 ### Restrições
 
-......  ATUALIZE AS RESTRIÇÕES DO SISTEMA (MÍNIMO 5) ......
-
 A tabela a seguir apresenta as restrições do projeto. 
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|-------|
-|RE-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RE-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID     | Descrição do Requisito                                                             | Prioridade |
+|--------|------------------------------------------------------------------------------------|------------|
+| RE-001 | Permitir que o usuário cadastre tarefas                                            | ALTA       |
+| RE-002 | Permitir que o usuário delete tarefas                                              | MÉDIA      |
+| RE-003 | Permitir que o usuário altere tarefas                                              | MÉDIA      |
+| RE-004 | Permitir que o usuário visualize tarefas                                           | BAIXA      |
+| RE-005 | Permitir que o usuário veja progessos por tipo de tarefas                          | MÉDIA      |
+| RE-006 | Permitir que o usuário visualize tarefas atribüidas                                | ALTA       |
+| RE-007 | Permitir que o usuário visualize tarefas em andamento                              | ALTA       |
+| RE-008 | Permitir que o usuário visualize tarefas realizadas                                | ALTA       |
+| RE-009 | Permitir que o usuário visualize tarefas removidas                                 | BAIXA      |
+| RE-010 | Permitir que o usuário visualize porcentagem das tarefas do grupo foram realizadas | BAIXA      |
+| RE-011 | Permitir que o usuário defina prioridade e peso da tarefa                          | ALTA       |
+| RE-011 | Permitir que o usuário compartilhe o link da casa                                  | ALTA       |
 
 
 ### Contra-Escopo
 
-......  ATUALIZE O CONTRA-ESCOPO DO SISTEMA (MÍNIMO 5) ......
-
-A tabela a seguir apresenta as atividades que não serão executadas no projeto
-
-|ID    | Descrição do Contra-Escopo          | 
-|------|-------------------------------------|
-|CE-001| Treinamento de modelo de LLM        |
-|CE-002| Pesquisa de viabilidade do mercado. |
+|ID    | Descrição do Contra-Escopo                  |
+|------|---------------------------------------------|
+|CE-001| Gerencimaneto de tarefas individuais        |
+|CE-002| Aplicação de agenda pessoal                 |
+|CE-003| Gerenciador de tempo de execução de tarefas |
+|CE-004| Automatização das tarefas                   |
+|CE-005| Aplicação de anotações                      |
 
 ### Condições para início do Projeto
 
-......  ATUALIZE AS CONDIÇÕES PARA INÍCIO DOS PROJETOS (MÍNIMO 3) ......
-
 A tabela a seguir, apresente as condições para que o projeto seja iniciado.
 
-|ID    | Descrição de Condições para Início do Projeto    | 
-|------|--------------------------------------------------|
-|CI-001| Assinatura de contrato de prestação de serviços. |
-|CI-002| Apresentação de garantias definidas no contrato. |
-
-## Marcos Agendados e Entregas
-
-......  ATUALIZE OS MARCOS AGENDADOS DO PROJETO E AS DATAS PARA ENTREGAS DAS TAREFAS ......
-
-A tabela a seguir, identifique os marcos do projeto e os entregáveis previstos (requisitos).
-
-|ID   | Marco do Projeto                                                  | 
-|-----|-------------------------------------------------------------------|
-|M-1  | Liberação do sistema para cadastro de informações e configuração. |
-|M-2  | Permissão para uso do sistema, por usuários focais.               |
-|M-3  |                                                                   |
-|M-4  |                                                                   |
-|M-5  |                                                                   |
-|M-6  |                                                                   |
+| ID     | Descrição de Condições para Início do Projeto    |
+|--------|--------------------------------------------------|
+| CI-001 | Assinatura de contrato de prestação de serviços. |
+| CI-002 | Apresentação de garantias definidas no contrato. |
+| CI-003 | Requisitos funcionais                            |
+| CI-004 | Requisitos não-funcionais                        |
+| CI-005 | Personas                                         |
+| CI-006 | Definição do problema                            |
+| CI-007 | Mapa de empatia                                  |
+| CI-008 | Brainstorming                                    |
+| CI-009 | Brainwriting                                     |
+| CI-010 | Proposta de valor                                |
+| CI-011 | Formação de equipe                               |
+| CI-012 | Ambiente de desenvolvimento                      |
+| CI-013 | Alinhamento com cliente                          |
 
 ```diff
 + Tarefa 02
