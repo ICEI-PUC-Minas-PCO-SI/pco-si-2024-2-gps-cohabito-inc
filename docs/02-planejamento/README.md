@@ -28,37 +28,15 @@
 
 # Escopo do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> O escopo do projeto define os limites, objetivos e entregáveis do projeto, estabelecendo clareza sobre o que será realizado e o que está excluído do escopo. 
-> O escopo assegura a alocação adequada de recursos, evita desvios dos objetivos do projeto e garante que as expectativas dos stakeholders sejam atendidas. 
-> A definição do escopo inclui documentação detalhada dos requisitos, restrições e premissas do projeto. 
-> Ao longo do ciclo de vida do projeto, a gestão do escopo também inclui o controle de mudanças, garantindo que qualquer ajuste seja avaliado quanto ao seu impacto e aprovado de maneira adequada. 
-> Utilize como referência a documentação existente na [Fase de Iniciação](/docs/01-iniciacao).
+- Iniciação: Levantar os requisitos, escrever a proposta de projeto, delimitar o escopo do projeto, mobilizar a equipe do projeto
+- Planejamento: Escrever histórias de usuário, planejar os gastos do projeto, escolher as tecnologias, desenhar um roadmap/milestones, planejar a interface e a experiência do usuário, desenhar a arquitetura do software
+- Execução: Implementar as telas, implementar o banco, implementar o back-end, integrar os componentes
+- Monitoramento e Controle: Testar as funcionalidades, gerenciar os gastos, gerenciar as datas de entrega, gerenciar a equipe, realizar reuniões cíclicas
+- Encerramento: Disponibilizar o app nas lojas, desmobilizar a equipe, testes alfa e beta, acompanhamento dos primeiros dias de funcionamento, levantamento dos gastos, levantamento dos desafios
 
 # Estrutura Analítica do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> A Estrutura Analítica do Projeto (EAP) proporciona uma representação hierárquica atividades que compõem um projeto. 
-> Organizando o escopo do projeto em componentes gerenciáveis e compreensíveis, a EAP facilita a decomposição do trabalho em partes menores, tornando mais fácil o planejamento, a atribuição de responsabilidades e o monitoramento do progresso. 
-> Cada elemento na estrutura representa uma parcela específica do trabalho a ser realizado, proporcionando clareza sobre as inter-relações entre as diferentes partes do projeto. 
-> A EAP serve como a base para a criação do cronograma do projeto, a alocação de recursos e a identificação de dependências. 
-> Essa abordagem estruturada contribui significativamente para o sucesso do projeto, garantindo uma compreensão abrangente do escopo e uma base sólida para a gestão eficaz do trabalho ao longo do ciclo de vida do projeto.
-
-> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
-
-![Estrutura Analítica do Projeto](images/exemplo_wbs.png)
-
-> Softwares recomendados: 
-> * [WBS Schedule Pro (Demo)](https://www.criticaltools.com/)
-> * [Draw.io](https://app.diagrams.net/)
-> * [ProjectLibre](https://www.projectlibre.com/)
-
-### Documento Editável
-
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável de geração da WBS:
-- [Estrutura Analítica do Projeto - Editável](artefatos/estrutura_analitica_projeto.wbs)
+![image](https://github.com/user-attachments/assets/42dcd8eb-045b-46a7-95af-c1c619352dbf)
 
 ```diff
 + Tarefa 04:
@@ -73,30 +51,20 @@
 
 # Matriz de Responsabilidades
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> A Matriz de Responsabilidades é uma ferramenta para definir e indicar as responsabilidades de cada membro da equipe em relação às atividades do projeto. 
-> Também conhecida como RACI (Responsável, Aprovador, Consultado e Informado), essa matriz atribui papéis específicos a cada envolvido, indicando quem é responsável pela execução de uma tarefa, quem deve aprovar, quem precisa ser consultado e quem deve ser mantido informado. 
-> Ao criar uma visão visual e estruturada das responsabilidades, a matriz RACI minimiza ambiguidades e conflitos de papel.
-> Essa ferramenta não apenas esclarece as expectativas em termos de contribuições individuais, mas também contribui para um ambiente de trabalho mais organizado e transparente, resultando em uma gestão de projeto mais eficaz e bem-sucedida.
-
-> Informações Adicionais:
-> * **R**esponsible -> Executor (pessoa(s) que executará(ão)/desenvolverá(ão) a atividade)
-> * **A**ccountable -> Responsável (pessoa responsável por aprovar a atividade)
-> * **C**onsulted   -> Consultado (especialista consultado sobre a atividade ou parte dela)
-> * **I**nformed    -> Informado (pessoas interessadas no projeto que devem ser informadas sobre a execução).
-> 
-> Link de auxílio: https://www.forbes.com/advisor/business/raci-chart/
-
-> Crie uma nova imagem da Estrutura Analítica do Projeto. Não se esqueça de adicionar o documento editável no repositório.
-
-![Matriz RACI](images/raci.png)
-
-
-### Documento Editável
-
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável da Matriz RACI:
-- [Matriz de Responsabilidades (RACI) - Editável](artefatos/matriz-raci.docx)
+| Atividade                           | Gerente- Pedro     | Victor | Savio | Caio (Gerente de Qualidade)  | João | Terceiros | Cliente |
+|-------------------------------------|--------------------|--------|-------|------------------------------|------|-----------|---------|
+| Iniciar o projeto                   | R                  | I      | I     | C                            | I    |           | A       |
+| Definir o escopo                    | R                  | I      | I     | A                            | I    |           | C       |
+| Elaborar a WBS                      | R                  | I      | I     | A                            | I    |           | C       |
+| Elaborar o cronograma               | R                  | I      | I     | A                            | I    | I         | C       |
+| Planejar os riscos                  | R                  | I      | I     | A                            | I    | I         |         |
+| Planejar a qualidade                | A                  | I      | I     | R                            | I    |           | C       |
+| Planejar o projeto                  | R                  | I      | I     | A                            | I    |           | C       |
+| Monitorar o projeto                 | R                  | I      | I     | A                            | I    |           | C       |
+| Desenvolvimento de Protótipos       | A                  | C      | I     | R                            | I    |           | C       |
+| Planejamento de Custos              | C                  | C      | R     | C                            | C    | C         | A       |
+| Desenvolvimento Front-End           | I                  | R      | I     | A                            | I    |           | A       |
+| Desenvolvimento                     | I                  | C      | I     | I                            | R    | C         | A       |
 
 ```diff
 + Tarefa 05:
@@ -111,17 +79,48 @@
 
 # Cronograma do Projeto
 
-......  DESCREVA EM LINHAS GERAIS O CRONOGRAMA DO SEU PROJETO AQUI ......
+| Id  | EDT      | Nome da Tarefa                                     | Duração  | Início      |
+| --- | -------- | -------------------------------------------------- | -------- | ----------- |
+| 1   | 1        | Projeto CoHábito                                   | 64,88 dias | Qui 29/08/24 |
+| 2   | 1.1      | Planejamento                                       | 6 dias    | Qui 29/08/24 |
+| 3   | 1.1.1    | Abertura do projeto                                | 1 dia     | Qui 29/08/24 |
+| 4   | 1.1.2    | Definição do escopo                                | 1 dia     | Sex 30/08/24 |
+| 5   | 1.1.3    | Levantamento de recursos                           | 5 dias    | Sex 30/08/24 |
+| 6   | 1.1.4    | Levantamento de custos                             | 1 dia     | Seg 02/09/24 |
+| 7   | 1.1.5    | Mobilização da equipe                              | 3 hrs     | Seg 02/09/24 |
+| 8   | 1.1.6    | Idealização do cronograma de entregas              | 1 dia     | Seg 02/09/24 |
+| 9   | 1.1.7    | Concretização do escopo do projeto                 | 0 dias    | Qui 29/08/24 |
+| 10  | 1.2      | Conceituação                                       | 7,38 dias | Sex 06/09/24 |
+| 11  | 1.2.1    | Modelo conceitual                                  | 7,38 dias | Sex 06/09/24 |
+| 12  | 1.2.1.1  | Realização do brainstorm para definição das funcionalidades e nome | 2 hrs | Sex 06/09/24 |
+| 13  | 1.2.1.2  | Realização do BrainWriting                         | 1 dia     | Sex 06/09/24 |
+| 14  | 1.2.1.3  | Matriz CSD                                         | 2 hrs     | Sex 06/09/24 |
+| 15  | 1.2.1.4  | Definição do público-alvo                          | 1 hr      | Sex 06/09/24 |
+| 16  | 1.2.1.5  | Formação de personas                               | 5 dias    | Sex 06/09/24 |
+| 17  | 1.2.1.6  | Criação do mapa de empatia                         | 2 dias    | Sex 13/09/24 |
+| 18  | 1.2.2    | Caracterização da comunidade e da demanda          | 0 dias    | Ter 17/09/24 |
+| 19  | 1.3      | Arquitetura Estrutural e Visual                    | 9,5 dias  | Ter 17/09/24 |
+| 20  | 1.3.1    | Definição das plataformas de publicação            | 1,5 dias  | Ter 17/09/24 |
+| 21  | 1.3.2    | Elicitação dos requisitos                          | 4 dias    | Qua 18/09/24 |
+| 22  | 1.3.3    | Definição da identidade visual                     | 3 dias    | Ter 17/09/24 |
+| 23  | 1.3.4    | Prototipação                                       | 4 dias    | Ter 24/09/24 |
+| 24  | 1.3.5    | Desenho da arquitetura                             | 1 dia     | Ter 24/09/24 |
+| 25  | 1.3.6    | Modelagem do banco de dados                        | 2 dias    | Qua 25/09/24 |
+| 26  | 1.3.7    | Finalização da identidade do produto               | 0 dias    | Ter 17/09/24 |
+| 27  | 1.4      | Produção                                           | 36 dias   | Seg 30/09/24 |
+| 28  | 1.4.1    | Mapeamento do processo de desenvolvimento          | 1 dia     | Seg 30/09/24 |
+| 29  | 1.4.2    | Preparação da infraestrutura                       | 1 sem     | Ter 01/10/24 |
+| 30  | 1.4.3    | Desenvolvimento                                    | 30 dias   | Ter 08/10/24 |
+| 31  | 1.4.4    | Execução dos testes                                | 30 dias   | Ter 08/10/24 |
+| 32  | 1.4.5    | Finalização do desenvolvimento do produto          | 0 dias    | Seg 30/09/24 |
+| 33  | 1.5      | Lançamento                                         | 6 dias    | Qui 21/11/24 |
+| 34  | 1.5.1    | Desmobilização da equipe                           | 1 hr      | Qui 21/11/24 |
+| 35  | 1.5.2    | Realização do Marketing                            | 6 dias    | Qui 21/11/24 |
+| 36  | 1.5.3    | Acompanhamento da operação                         | 6 dias    | Qui 21/11/24 |
+| 37  | 1.5.4    | Finalização do projeto                             | 0 dias    | Sex 29/11/24 |
 
-> O cronograma do projeto fornece uma representação temporal detalhada de todas as atividades, marcos e eventos ao longo do ciclo de vida do projeto. 
-> Elaborado durante o planejamento, o cronograma é uma ferramenta que oferece uma visão das interdependências entre as tarefas, alocando recursos e definindo prazos para as entregas.
-> Utilizando técnicas como a análise de rede (PERT/CPM) e estimativas de duração, o cronograma ajuda na identificação de caminhos críticos, permitindo aos gestores de projeto otimizar recursos, antecipar potenciais atrasos e tomar decisões. 
-> Além disso, o cronograma serve como um guia para monitorar o progresso, comunicar efetivamente com a equipe e as partes interessadas, e ajustar estratégias para garantir a conclusão bem-sucedida do projeto dentro dos prazos estabelecidos.
-
-### Documento Editável
-
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável do Cronograma do Projeto:
-- [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
+#### Documento Editável
+[Cronograma do Projeto CoHábito em .mpp](https://drive.google.com/file/d/11xwSk8qUZmJ0D7GPyFqLn7_I-I2wfhgj/view?usp=sharing)
 
 ```diff
 + Tarefa 07:
@@ -136,18 +135,42 @@
 
 # Orçamento do Projeto
 
-......  DESCREVA EM LINHAS GERAIS O ORÇAMENTO DO SEU PROJETO AQUI ......
+A seguinte tabela descreve os reponsáveis pelas tarefas do crognograma do projeto.
 
-> O orçamento do projeto envolve a estimativa e alocação de recursos financeiros necessários para a execução bem-sucedida do projeto, abrangendo custos diretos e indiretos, despesas operacionais, investimentos em equipamentos, pessoal, entre outros. 
-> O desenvolvimento do orçamento deve considerar variáveis como riscos, imprevistos e mudanças no escopo. 
-> Uma vez estabelecido, o orçamento serve como guia para a utilização eficiente dos recursos financeiros ao longo do projeto. 
-> A gestão do orçamento não apenas ajuda a controlar os custos, mas também fornece transparência e prestação de contas, permitindo que gestores tomem decisões informadas e evitem surpresas financeiras ao longo do ciclo de vida do projeto. 
-> Assim, o orçamento contribui para o sucesso do projeto, garantindo a viabilidade econômica e a entrega dentro das expectativas financeiras estabelecidas.
+| Nome da Tarefa                                     | Responsável(s)                               |
+| -------------------------------------------------- | -------------------------------------------- |
+| Abertura do projeto                                | Gerente                                      |
+| Definição do escopo                                | Consultor[30%]                               |
+| Levantamento de recursos                           | Desenvolvedor Backend, Desenvolvedor Frontend |
+| Levantamento de custos                             | Gerente[50%]                                 |
+| Mobilização da equipe                              | Gerente[20%]                                 |
+| Idealização do cronograma de entregas              | Gerente[20%], Consultor[30%]                 |
+| Realização do brainstorm para definição das funcionalidades e nome | Gerente[20%], Consultor[30%]                 |
+| Realização do BrainWriting                         | Desenvolvedor Frontend, Gerente[20%], Desenvolvedor Backend |
+| Matriz CSD                                         | Analista de UX/UI                            |
+| Definição do público-alvo                          | Analista de UX/UI, Campanha Publicitária     |
+| Formação de personas                               | Analista de UX/UI, Campanha Publicitária     |
+| Criação do mapa de empatia                         | Analista de UX/UI, Campanha Publicitária     |
+| Definição das plataformas de publicação            | Desenvolvedor Backend, Desenvolvedor Frontend, DevOps |
+| Elicitação dos requisitos                          | Consultor[30%], Desenvolvedor Backend, Desenvolvedor Frontend, Gerente[20%] |
+| Definição da identidade visual                     | Analista de UX/UI                            |
+| Prototipação                                       | Analista de UX/UI                            |
+| Desenho da arquitetura                             | Desenvolvedor Backend, DevOps                |
+| Modelagem do banco de dados                        | Desenvolvedor Backend                        |
+| Mapeamento do processo de desenvolvimento          | Desenvolvedor Backend, Desenvolvedor Frontend, DevOps |
+| Preparação da infraestrutura                       | DevOps                                       |
+| Desenvolvimento                                    | Desenvolvedor Backend, Desenvolvedor Frontend, Estagiário, Hospedagem do Backend[1], Hospedagem Frontend[1], Servidor de Banco de Dados[1] |
+| Execução dos testes                                | Tester, Hospedagem do Backend[1], Hospedagem Frontend[1], Servidor de Banco de Dados[1] |
+| Desmobilização da equipe                           | Gerente[20%]                                 |
+| Realização do Marketing                            | Campanha Publicitária                        |
+| Acompanhamento da operação                         | Consultor[30%], DevOps, Gerente[20%], Tester |
+
+#### Valores do Projeto
+> A colocar de acordo com o projeto feito no laboratório MS Project
 
 ### Documento Editável
 
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável do Orçamento do Projeto:
-- [Cronograma e Orçamento do Projeto - Editável](artefatos/cronograma_orcamento.pod)
+[Orçamento do Projeto CoHábito em .mpp](https://drive.google.com/file/d/12Ecl9w5XXjsQ7cqcueSWdnzHY3tQBNIw/view?usp=sharing)
 
 ```diff
 + Tarefa 08:
