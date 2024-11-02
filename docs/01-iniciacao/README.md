@@ -291,7 +291,7 @@ A tabela a seguir, apresente as condições para que o projeto seja iniciado.
 | Quadro Kanban                 | Github       | https://github.com  | Centralização e organização do projeto no próprio repositório.    |
 | Repositório de código         | GitHub       | https://github.com  | Fácil gerenciamento e versionamento                               |
 | Protótipo de Baixa Fidelidade | Figma        | https://figma.com   | Centralização dos componentes e interface                         |
-| Protótipo de Alta Fidelidade  | Figma        | [https://figma.com] | Centralização dos componentes e interface                         |
+| Protótipo de Alta Fidelidade  | Figma        | https://figma.com   | Centralização dos componentes e interface                         |
 | Documentos Textuais           | Google Drive | Google Drive        | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
 | Elementos Gráficos do Projeto | Google Drive | Google Drive        | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
 | EAP / WBS                     | Draw.io      | Draw.io             | Criação de estrutura analítica graficamente grátis e de fácil usabilidade |
