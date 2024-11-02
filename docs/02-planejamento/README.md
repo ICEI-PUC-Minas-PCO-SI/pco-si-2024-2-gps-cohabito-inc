@@ -184,14 +184,8 @@ A seguinte tabela descreve os reponsáveis pelas tarefas do crognograma do proje
 > Este plano funciona como um guia mestre que orienta a equipe de projeto e as partes interessadas ao longo do ciclo de vida do projeto, estabelecendo expectativas, responsabilidades e processos. 
 > Além disso, serve como um instrumento de comunicação, alinhando as expectativas entre os membros da equipe e as partes interessadas, mitigando riscos e fornecendo uma estrutura sólida para a tomada de decisões. 
 
-```diff
-+ Tarefa 09:
-+ Checklist de Qualidade
-```
 
 ## Plano de Qualidade
-
-...... DESCREVA SUCINTAMENTE O PLANO DE QUALIDADE UTILIZADO NO PROJETO ......
 
 > O Plano de Qualidade auxilia a garantir que as entregas do projeto atendam aos padrões de qualidade definidos. 
 > Este plano abrange atividades como definição de padrões, procedimentos de garantia de qualidade, critérios de aceitação e processos de monitoramento e controle da qualidade ao longo do ciclo de vida do projeto. 
@@ -276,12 +270,6 @@ Computadores providos com ferramentas de automação de teste de software e aces
 | Teste de Segurança   | Testes de penetração e auditorias de segurança são realizados para identificar vulnerabilidades                                                                  |
 | Teste de Carga       | Ferramentas como JMeter e LoadRunner são usadas para simular uma alta carga de usuários e transações, testando a capacidade do banco de dados de manter a performance sob diferentes condições de carga |
 
-
-
-```diff
-+ Tarefa 09:
-+ Fim da seção a ser atualizada.
-```
 
 ```diff
 + Tarefa 10:
