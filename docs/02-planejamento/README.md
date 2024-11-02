@@ -221,51 +221,62 @@ A seguinte tabela descreve os reponsáveis pelas tarefas do crognograma do proje
 
 ### Artefatos a serem verificados
 
-| Artefato   | Tipo Verif. | Data        | Responsável | Métrica     | Data Correção | Ação Não Conform. | Resp. Avaliação | Resp. Correção |
-|------------|-------------|-------------|-------------|-------------|---------------|-------------------|-----------------|----------------|
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
+| Artefato                           | Tipo de verificação | Data      | Responsável             | Métrica aplicada           | Data limite p/ correção | Ação p/ não conformidade                                  | Respons. avaliação     | Respons. correção   |
+|------------------------------------|---------------------|-----------|-------------------------|----------------------------|-------------------------|----------------------------------------------------------|------------------------|---------------------|
+| Protótipos de baixa fidelidade     | Conformidade        | 25/09/24  | Caio                    | Satisfação do usuário      | 29/09/24                | Levantar os pontos de melhoria e aplicar no protótipo    | Caio                   | Estagiário          |
+| Protótipos de alta fidelidade      | Teste               | 30/09/24  | Caio                    | Satisfação do usuário      | 07/10/24                | Levantar os pontos de melhoria e aplicar no protótipo    | Caio                   | Estagiário          |
+| Interface do aplicativo            | Teste               | 21/11/24  | Victor                  | Taxa de erros              | 22/11/24                | Realização de depuração, documentação do erro e correção | Victor                 | Estagiário          |
+| Módulo de gerenciamento de usuários| Teste               | 21/11/24  | Caio                    | Taxa de erros              | 22/11/24                | Realização de depuração, documentação do erro e correção | Caio                   | Estagiário          |
+| Módulo de gerenciamento de tarefas | Teste               | 21/11/24  | Caio                    | Taxa de erros              | 22/11/24                | Realização de depuração, documentação do erro e correção | Caio                   | Estagiário          |
+| Módulo de gerenciamento de cohabito| Teste               | 21/11/24  | Caio                    | Taxa de erros              | 22/11/24                | Realização de depuração, documentação do erro e correção | Caio                   | Estagiário          |
+| Módulo de compartilhamento         | Teste               | 21/11/24  | Caio                    | Taxa de erros              | 22/11/24                | Realização de depuração, documentação do erro e correção | Caio                   | Estagiário          |
+| API de integração                  | Teste               | 21/11/24  | Victor e João           | Taxa de erros              | 22/11/24                | Realização de depuração, documentação do erro e correção | Victor e João          | Estagiário          |
+| Configuração do servidor de BD     | Inspeção            | 27/09/24  | Simone Andrade dos Santos| Latência, disponibilidade e escalabilidade| 07/10/24                | Realizar ajustes nas configurações do servidor           | Simone Andrade dos Santos| Simone Andrade dos Santos|
+| Banco de dados                     | Teste               | 27/09/24  | João                    | Taxa de erros              | 07/10/24                | Otimização                                             | João                   | Estagiário          |
+| Configuração de servidor do back-end| Inspeção           | 08/10/24  | Simone Andrade dos Santos| Latência, disponibilidade e escalabilidade| 07/10/24                | Realizar ajustes nas configurações do servidor           | Simone Andrade dos Santos| Simone Andrade dos Santos|
+| Configuração de servidor do front-end| Inspeção          | 08/10/24  | Simone Andrade dos Santos| Latência, disponibilidade e escalabilidade| 07/10/24                | Realizar ajustes nas configurações do servidor           | Simone Andrade dos Santos| Simone Andrade dos Santos|
+| Produto publicado                  | Teste               | 24/11/24  | Caio                    | Taxa de erros              | 25/11/24                | Realização de depuração, documentação do erro e correção | Caio                   | Estagiário          |
+
+
+
 
 ### Padrões e Normas Utilizadas
 
-| Nome       | Descrição   | 
-|------------|-------------|
-|            |             |
-|            |             |
-|            |             |
-|            |             |
-|            |             |
+| Nome                                                                                          | Descrição                                                                                                                                                 |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ISO/IEC 26514:2008 (Ergonomics of human-system interaction - Part 11: Usability: Definitions and concepts) | Norma que aborda os requisitos para o desenvolvimento de interfaces com o usuário e inclui, dentre outras coisas, a criação e avaliação de protótipos nos quesitos usabilidade e funcionalidade |
+| ISO 9241-11:2018 (Ergonomics of human-system interaction - Part 11: Usability: Definitions and concepts)     | Norma que define vários conceitos relacionados à usabilidade, além de fornecer diretrizes para testar a eficiência, eficácia e satisfação dos usuários ao interagir com interfaces            |
+| ISO/IEC 25010:2011 (Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models) | Norma que fornece o modelo para garantia de qualidade para sistemas de software                                                                            |
+
 
 ### Ambiente das Atividades de Qualidade
 
-| Ambiente   | Descrição   | 
-|------------|-------------|
-|            |             |
-|            |             |
-|            |             |
-|            |             |
+Computadores providos com ferramentas de automação de teste de software e acesso à internet; Acesso aos serviços de hospedagem em nuvem; Ambiente controlado, sem muito barulho e outros fatores que possam desconcentrar os responsáveis pela execução das validações de qualidade. 
+
 
 ### Equipe de Qualidade
 
-| Nome       | Responsabilidade | 
-|------------|------------------|
-|            |                  |
-|            |                  |
-|            |                  |
-|            |                  |
-|            |                  |
+| Nome       | Responsabilidades                                                                                      |
+|------------|--------------------------------------------------------------------------------------------------------|
+| Caio       | Gerenciar a criação dos protótipos; Gerenciar a garantia de qualidade do software.                     |
+| Victor     | Executar a criação da interface; Gerenciar a correção de eventuais erros encontrados.                  |
+| João       | Executar a criação do back-end; Gerenciar a correção de eventuais erros encontrados.                   |
+| Simone     | Configuração dos servidores em nuvem; Execução dos testes de performance em nuvem; Correção de eventuais problemas de performance |
+| Estagiário | Correção de eventuais erros encontrados; Execução de testes.                                           |
+
 
 ### Metodologias de Qualidade Utilizadas
 
-| Nome       | Descrição   | 
-|------------|-------------|
-|            |             |
-|            |             |
-|            |             |
+| Nome                 | Descrição                                                                                                                                                       |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Revisão por pares    | Um grupo de designers revisa os protótipos para uns dos outros para garantir que atendam aos requisitos e critérios de usabilidade do sistema                    |
+| Teste de usabilidade | Usuários reais são recrutados para interagir com o sistema enquanto são observados pela equipe de designers do sistema a fim de anotar pontos de melhoria na usabilidade do mesmo |
+| Testes unitários     | Testes a nível de código, onde cada pequena parte do sistema (como as funções e métodos, por exemplo) são submetidas a provas de conformidade com os requisitos  |
+| Teste de Performance | Ferramentas de monitoramento (como Grafana e Prometheus) são usadas para medir a latência, disponibilidade e escalabilidade dos servidores                       |
+| Teste de Segurança   | Testes de penetração e auditorias de segurança são realizados para identificar vulnerabilidades                                                                  |
+| Teste de Carga       | Ferramentas como JMeter e LoadRunner são usadas para simular uma alta carga de usuários e transações, testando a capacidade do banco de dados de manter a performance sob diferentes condições de carga |
+
+
 
 ```diff
 + Tarefa 09:
