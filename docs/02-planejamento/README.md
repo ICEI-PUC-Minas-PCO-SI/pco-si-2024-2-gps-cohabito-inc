@@ -187,11 +187,6 @@ A seguinte tabela descreve os reponsáveis pelas tarefas do crognograma do proje
 
 ## Plano de Qualidade
 
-> O Plano de Qualidade auxilia a garantir que as entregas do projeto atendam aos padrões de qualidade definidos. 
-> Este plano abrange atividades como definição de padrões, procedimentos de garantia de qualidade, critérios de aceitação e processos de monitoramento e controle da qualidade ao longo do ciclo de vida do projeto. 
-> Ao identificar metas de qualidade, responsabilidades da equipe, e métricas de avaliação, o Plano de Qualidade busca assegurar que o projeto atinja ou exceda as expectativas dos stakeholders em termos de desempenho e conformidade. 
-> A adoção de políticas de qualidade auxilia a mitigar riscos, promove a confiança nas entregas do projeto e, por fim, aumenta a probabilidade de sucesso do empreendimento. 
-
 > Referência - Conceitual
 > * https://www.researchgate.net/publication/230636169_Software_Quality_Assurance
 
@@ -209,9 +204,6 @@ A seguinte tabela descreve os reponsáveis pelas tarefas do crognograma do proje
 > * https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=d6bd60206282a2d4449e414e81a703612ef78a0c
 > * https://www.testbytes.net/blog/quality-assurance-process-methodology/
 > * https://www.projectmanager.com/blog/quality-assurance-and-testing
-
-> Você pode utilizar como referência o seguinte documento:
-> [Checklist de Qualidade](artefatos/checklist_qualidade.docx)
 
 ### Artefatos a serem verificados
 
@@ -231,22 +223,17 @@ A seguinte tabela descreve os reponsáveis pelas tarefas do crognograma do proje
 | Configuração de servidor do front-end| Inspeção          | 08/10/24  | Simone Andrade dos Santos| Latência, disponibilidade e escalabilidade| 07/10/24                | Realizar ajustes nas configurações do servidor           | Simone Andrade dos Santos| Simone Andrade dos Santos|
 | Produto publicado                  | Teste               | 24/11/24  | Caio                    | Taxa de erros              | 25/11/24                | Realização de depuração, documentação do erro e correção | Caio                   | Estagiário          |
 
-
-
-
 ### Padrões e Normas Utilizadas
 
 | Nome                                                                                          | Descrição                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ISO/IEC 26514:2008 (Ergonomics of human-system interaction - Part 11: Usability: Definitions and concepts) | Norma que aborda os requisitos para o desenvolvimento de interfaces com o usuário e inclui, dentre outras coisas, a criação e avaliação de protótipos nos quesitos usabilidade e funcionalidade |
 | ISO 9241-11:2018 (Ergonomics of human-system interaction - Part 11: Usability: Definitions and concepts)     | Norma que define vários conceitos relacionados à usabilidade, além de fornecer diretrizes para testar a eficiência, eficácia e satisfação dos usuários ao interagir com interfaces            |
-| ISO/IEC 25010:2011 (Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models) | Norma que fornece o modelo para garantia de qualidade para sistemas de software                                                                            |
-
+| ISO/IEC 25010:2011 (Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models) | Norma que fornece o modelo para garantia de qualidade para sistemas de software                                                             |
 
 ### Ambiente das Atividades de Qualidade
 
 Computadores providos com ferramentas de automação de teste de software e acesso à internet; Acesso aos serviços de hospedagem em nuvem; Ambiente controlado, sem muito barulho e outros fatores que possam desconcentrar os responsáveis pela execução das validações de qualidade. 
-
 
 ### Equipe de Qualidade
 
@@ -257,7 +244,6 @@ Computadores providos com ferramentas de automação de teste de software e aces
 | João       | Executar a criação do back-end; Gerenciar a correção de eventuais erros encontrados.                   |
 | Simone     | Configuração dos servidores em nuvem; Execução dos testes de performance em nuvem; Correção de eventuais problemas de performance |
 | Estagiário | Correção de eventuais erros encontrados; Execução de testes.                                           |
-
 
 ### Metodologias de Qualidade Utilizadas
 
