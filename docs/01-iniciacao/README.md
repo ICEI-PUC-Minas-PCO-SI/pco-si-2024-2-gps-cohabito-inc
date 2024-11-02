@@ -27,7 +27,6 @@
     - [Restrições](#restrições)
     - [Contra-Escopo](#contra-escopo)
     - [Condições para início do Projeto](#condições-para-início-do-projeto)
-  - [Marcos Agendados e Entregas](#marcos-agendados-e-entregas)
 - [Metodologia](#metodologia)
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
@@ -48,10 +47,6 @@ Muitos lares enfrentam dificuldades em manter uma rotina doméstica organizada, 
 ## Objetivos
 
 Objetivo do projeto é a realização de um software de gerenciamneto de tarefas domésticas em grupo e que auxilie os usuários no controle de recursos, pessoas e das tarefas, garantindo efetividade da divisão, das execuções, do acompanhamento das tarefas e deveres domésticos sem sobrecarregar e fazendo com que a falta de tempo não seja mais um problema para dividir e realizar as tarefas.
-
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 
 ## Justificativa
 
@@ -118,9 +113,6 @@ Com isso, a nossa solução se baseia em alguns benefícios que justificam a inc
 > Ao delinear esses elementos de forma detalhada, o Termo de Abertura do Projeto (TAP) fornece uma direção sólida para orientar as atividades subsequentes, facilitando a gestão eficaz do projeto desde o início até o encerramento. 
 > Essa documentação garante a clareza, alinhamento e comprometimento de todos os envolvidos, contribuindo assim para o sucesso do projeto.
 
-> Você pode utilizar como referência o seguinte documento:
-> [Termo de Abertura do Projeto](artefatos/termo-abertura-projeto.docx)
-
 ## Estimativa de Custo
 
 | Item de custo                       | Qtd. horas | Valor / hora | Valor total |
@@ -141,10 +133,17 @@ Com isso, a nossa solução se baseia em alguns benefícios que justificam a inc
 ## Escopo Preliminar e Premissas
 
 ### O que será feito (escopo do projeto)
-Desenvolvimento de aplicação de gerenciamento de tarefas domésticas para repúblicas, grupos familiares, cônjuges e colegas de quarto.
+- Desenvolvimento de aplicação de gerenciamento de tarefas domésticas para repúblicas, grupos familiares, cônjuges e colegas de quarto.
 
 ### O que não será feito no projeto (contra-escopo)
-A aplicação não se refere a gerenciamento de tarefas individuais ou agendas.
+- A aplicação não se refere a gerenciamento de tarefas individuais ou agendas.
+
+### Condições para iniciar o projeto)
+- Será necessário contratar um provedor de nuvem para hospedar a aplicação back-end
+- Será necessário utilizar um banco de dados relacional altamente disponível
+- É necessário um orçamento inicial para mobilização da equipe e do maquinário
+- Comprar licença de venda nas lojas de aplicações móveis da Google e da Apple
+- Será necessária configuração de repositórios para as aplicações front e back-end
 
 ## Declaração de Escopo
 
@@ -171,7 +170,6 @@ A tabela a seguir apresenta os requisitos funcionais do projeto.
 | RF-015 | Escolher tarefa a executar                     | ALTA       |
 | RF-016 | Alocar usuário para tarefa                     | ALTA       |
 
-
 ### Requisitos Não Funcionais
 
 A tabela a seguir apresenta os requisitos não funcionais do projeto. 
@@ -183,7 +181,6 @@ A tabela a seguir apresenta os requisitos não funcionais do projeto.
 |RNF-003| O sistema deve ser desenvolvido utilizando Flutter como tecnologia no front-end                                        | ALTA      | 
 |RNF-004| O sistema deve possuir simplicidade suficiente para que usuário inexperientes em tecnologia consigam usá-lo            | ALTA      | 
 |RNF-005| O sistema deve possuir uma arquitetura cliente-servidor hospedada na internet                                          | BAIXA     | 
-
 
 ### Restrições
 
@@ -204,6 +201,11 @@ A tabela a seguir apresenta as restrições do projeto.
 | RE-011 | Permitir que o usuário defina prioridade e peso da tarefa                          | ALTA       |
 | RE-011 | Permitir que o usuário compartilhe o link da casa                                  | ALTA       |
 
+##### Outras restrições do projeto
+- O projeto deve ser concluído até o fim de 2024
+- Para o projeto será disponibilizada uma equipe de, no máximo, 6 pessoas
+- O projeto não pode consumir mais que R$ 150.000,00
+- O front-end precisará ser desenvolvido em Flutter
 
 ### Contra-Escopo
 
@@ -235,6 +237,13 @@ A tabela a seguir, apresente as condições para que o projeto seja iniciado.
 | CI-012 | Ambiente de desenvolvimento                      |
 | CI-013 | Alinhamento com cliente                          |
 
+### Marcos agendados e entregas
+1. Identificação da comunidade e da demanda: Brainstorm de ideias; Levantamento das personas; Matriz CSD; Mapa de empatia; Levantamento de requisitos; Protótipo de baixa fidelidade
+2. Finalização da UX/UI: Protótipos de alta fidelidade; Telas implementadas em Flutter
+3. Implementação das funcionalidades: Navegação entre as telas; Implementação de funcionalidades que não exigem permanência de dados; Modelagem e implementação do banco de dados
+4. Finalização do app: Implementação do Back-end com funcionalidades que dependem de permanência dos dados; Testes alfa e beta com os usuários
+5. Finalização do projeto: Lançamento do app construído; Levantamento dos desafios encontrados
+
 ```diff
 + Tarefa 02
 + Fim da seção a ser atualizada.
@@ -248,46 +257,46 @@ A tabela a seguir, apresente as condições para que o projeto seja iniciado.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas e as ferramentas empregadas.
->
-> Coloque detalhes sobre o processo utilizado e a implementação do Framework Scrum seguido pelo grupo. 
-> O grupo deverá gerenciar as tarefas utilizando o GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
-> 
-> **Links Úteis**:
-> - [Github Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
-> - [O que é o GitHub Projects? | Guia de Iniciantes](https://www.youtube.com/watch?v=vxYTpsFKdiQ&ab_channel=JulioArruda)
-> - [Introduction to GitHub Project Boards](https://www.youtube.com/watch?v=idZyqNIrt84&list=PLiO7XHcmTslc5hGrbnnmHIb0SeJLTpOEu&ab_channel=MickeyGousset)
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- Decisão de Metodologia: Utilização da metodologia ágil Kanban através da utilização da aplicação GitHub Projects.
+- Agendamento de Reuniões: Agendamento de Reuniões semanais com duração de 30 minutos a 1 hora.
+- Divisão de Tarefas para Desenvolvimento:
+  - Pedro Henrique (Gerente de Projeto)
+  - Caio Vitor (UX Designer)
+  - João Gustavo (Desenvolvedor BackEnd)
+  - Victor Magalhães (Desenvolvedor FrontEnd)
+  - Sávio Luis (Analista de Finanças)
+- Estimativas de Custos:
+  - Custos nas Áreas de Recursos Humanos
+  - Hardwares
+  - Redes e Serviços
+  - Software de Terceiro
+  - Serviços de Treinamento.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
-> Indique as responsabilidades de cada membro do grupo no projeto.
+| Nome                                 | Posição / Cargo            | Papel no Projeto                 |
+|--------------------------------------|----------------------------|----------------------------------|
+| Pedro Henrique Cunha Vieira          | Gerente do Projeto         | Gerente de Projeto               |
+| Caio Vitor Souza Fernandes           | Gerente de Qualidade       | UX Designer                      |
+| João Gustavo Medeiros Pontes         | Gerente de DevOps          | Desenvolvedor Back-end           |
+| Sávio Luis Pontes Martuchelli        | Gerente Financeiro         | Analista de finanças             |
+| Victor Magalhães de Souza            | Gerente de Desenvolvimento | Desenvolvedor Front-End          |
+| Lionel Ronaldo Arantes do Nascimento | CEO                        | Cliente                          |
+| Simone Andrade dos Santos            | Arquiteta de Soluções      | Parceiro de implatanção em nuvem |
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
-> Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
-> Todas as ferramentas utilizadas devem ser listadas.
-> Qualquer tipo de ferramenta que for utilizada para construção de um artefato deve ser identificada, uma vez que podem ser necessárias alterações.
-> A necessidade de uso de licenças e possíveis custos relacionados devem ser indicados.
-
-| Ambiente              | Plataforma         | Link de Acesso             | Justificativa |
-|-----------------------|--------------------|----------------------------|---------------|
-| Quadro Kanban         | Github             | https://github.com/XXXXXXX | Centralização e organização do projeto no próprio repositório. |
-| Repositório de código | GitHub             | https://github.com/XXXXXXX |               |
-| Protótipo Interativo  | MavelApp ou Figma  | https://figma.com/XXXXXXX  |               |
-| Documentos Textuais   | LibreOffice Writer | N/A                        |               |
-| Planilhas e Gráficos  | Google Planilhas   | https://docs.google.com/   |               |
-| EAP / WBS             | | | |
-| Cronograma do Projeto | | | |
-| Matriz RACI           | | | |
+| Ambiente                      | Plataforma   | Link de Acesso      | Justificativa                                                     |
+|-------------------------------|--------------|---------------------|-------------------------------------------------------------------|
+| Quadro Kanban                 | Github       | https://github.com  | Centralização e organização do projeto no próprio repositório.    |
+| Repositório de código         | GitHub       | https://github.com  | Fácil gerenciamento e versionamento                               |
+| Protótipo de Baixa Fidelidade | Figma        | https://figma.com   | Centralização dos componentes e interface                         |
+| Protótipo de Alta Fidelidade  | Figma        | [https://figma.com] | Centralização dos componentes e interface                         |
+| Documentos Textuais           | Google Drive | Google Drive        | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
+| Elementos Gráficos do Projeto | Google Drive | Google Drive        | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
+| EAP / WBS                     | Draw.io      | Draw.io             | Criação de estrutura analítica graficamente grátis e de fácil usabilidade |
+| Cronograma do Projeto         | MS Project   |                     | Ferramenta de altíssima qualidadde para gerenciar projetos e recursos |
+| Matriz RACI                   | Google Docs  | Google Docs         | Ferramenta grátis e em nuvem para todos os integrantes do projeto |
 
 ```diff
 + Tarefa 03:
