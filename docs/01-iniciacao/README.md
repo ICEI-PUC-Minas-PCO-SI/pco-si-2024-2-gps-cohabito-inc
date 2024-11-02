@@ -41,94 +41,62 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Em muitas residências onde pessoas dividem o mesmo espaço, como apartamentos de estudantes ou casas de famílias, a divisão de tarefas domésticas pode se tornar um desafio significativo. A falta de comunicação clara e de coordenação na realização de tarefas pode levar a frustrações, acúmulo de atividades, e até mesmo a conflitos entre os moradores.
 
-> Problem corresponde a uma lacuna a ser preenchida, uma necessidade a ser atendida, ou uma dificuldade a ser superada.
-> A definição precisa do problema ajuda a orientar as atividades do projeto, direcionando os esforços em sua solução.
-> Seu entendimento facilita a comunicação eficaz entre os membros da equipe e as partes interessadas, estabelecendo uma base comum para a colaboração.
-> Nesta seção, deve ser descrito apenas o problema e seu contexto.
-> Soluções para o problema devem ser descritas na seção correspondente.
+Muitos lares enfrentam dificuldades em manter uma rotina doméstica organizada, onde as responsabilidades de cada pessoa são claras e seguidas de maneira eficiente. Sem uma ferramenta adequada, a gestão dessas tarefas depende de conversas esporádicas ou de lembretes informais, que nem sempre são suficientes para garantir que todas as obrigações sejam cumpridas no prazo. Isso resulta em ambientes desorganizados e, frequentemente, em tensões entre os moradores.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Objetivo do projeto é a realização de um software de gerenciamneto de tarefas domésticas em grupo e que auxilie os usuários no controle de recursos, pessoas e das tarefas, garantindo efetividade da divisão, das execuções, do acompanhamento das tarefas e deveres domésticos sem sobrecarregar e fazendo com que a falta de tempo não seja mais um problema para dividir e realizar as tarefas.
 
-> Aqui você deve descrever os objetivos do trabalho.
-> Apresente um Objetivo Geral, sintetizado em uma única frase.
-> Apresente também 3 ou 4 objetivos específicos (sub-produtos do sistema ou objetivos extras que podem ser alcançados pela construção do software).
-> 
 > **Link Útil**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A escolha desse tema se dá pela dificuldade que muitos grupos domésticos, sejam família ou amigos de um república, enfrentam ao dividir e executar as tarefas domésticas. Isso ocorre devido à falta de tempo, desorganização, sobrecarga de tarefas diárias, esquecimento e divisão de tarefas pouco eficiente.
 
-> Aqui você deve descrever os benefícios esperados pela construção do projeto.
-> As justificativas do projeto explicam as razões e a necessidade da iniciativa.
-> Elas demonstram como o projeto atende a uma demanda específica, resolve um problema ou aproveita uma oportunidade identificada.
-> Além disso, definem os benefícios esperados e o impacto previsto para a organização ou a comunidade. 
+Com isso, a nossa solução se baseia em alguns benefícios que justificam a incialização do projeto de software, como:
+- Divisão de tarefas rápida, eficiente e sem sobrecarregar o usuário.
+- Maior controle nas tarefas a serem executadas e em execução.
+- Desacúmulo de tarefas diárias e distribuição justa entre os grupos.
 
 ## Critérios de Sucesso
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Os critérios de sucesso indicam uma forma avaliar o êxito do trabalho e analisar se o projeto realmente alcançou os objetivos estabelecidos. 
-> Esses critérios geralmente abrangem diversas dimensões, incluindo a entrega dentro do prazo e orçamento estipulados, a satisfação do cliente, a qualidade do produto ou serviço final, e a eficiência na utilização de recursos. 
-> Além disso, a capacidade de atender aos requisitos e expectativas das partes interessadas, bem como a gestão eficaz de riscos, são considerados aspectos importantes para determinar o sucesso de um projeto. 
+1. Desenvolvimento do Projeto de Maneira Efetiva e com Entregas no Prazo e Satisfação do Cliente e da Equipe.
+2. Desenvolver uma aplicação que o Design seja 100% focado na experiência do Usuário.
+3. Ter um ótimo trabalho em equipe com sucesso na realização de todo o processo do Projeto.
+4. Maior Rentabilidade para a Empresa.
+5. Ferramenta Estável (Menor Taxa de Erros).
+6. Sistema completo que auxilie na organização das tarefas domésticas em grupo dos usuários.
+7. Participar ativamente no desenvolvimento do projeto na área de Engenharia e Arquitetura de Software.
 
 # Partes Interessadas
 
-> Relacione as partes interessadas no seu projeto. 
-> Você deve descrever as partes interessadas e indicar qual o nível de influência em relação ao projeto.
-> Indique as principais pessoas (clientes, fornecedores, etc), indicando possíveis expectativas, nível de influência e possível importância para o sucesso do projeto.
-
-> Você pode utilizar como referência o seguinte documento:
-> [Registro de Partes Interessadas](artefatos/registro-partes-interessadas.xlsx)
-
 ## Identificação das Partes Interessadas
 
-| Nome            | Posição / Cargo | Papel Projeto | E-mail      | Telefone    |
-|-----------------|-----------------|---------------|-------------|-------------|
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-
-> Opções de identificação dos stakeholders:
-> - Nome: nome da parte interessada (inclui funcionários da empresa e do cliente)
-> - Posição / Cargo: Identificação do cargo da parte interessada
-> - - Ex.: Gerente de TI, Funcionário da Linha de Produção, Presidente, Analista de Sistema do Cliente, Desenvolvedor, etc.
-> - Papel no Projeto: Papel da pessoa no projeto
-> - - Ex.: Desenvolvedor, Analista de Requisitos, Analista de Testes, Product Owner, etc.
-> - E-mail: E-mail do Stakeholder (*não utilizar informações pessoais*)
-> - Telefone: Telefone do Stakeholder, incluindo WhatsApp (*não utilizar informações pessoais*)
+| Nome                                 | Posição / Cargo            | Papel no Projeto                 | E-mail                         | Telefone    |
+|--------------------------------------|----------------------------|----------------------------------|--------------------------------|-------------|
+| Pedro Henrique Cunha Vieira          | Gerente do Projeto         | Gerente de Projeto               | pedro.vieira@pucminas.br       | 31991239717 |
+| Caio Vitor Souza Fernandes           | Gerente de Qualidade       | UX Designer                      | caio.fernandes@pucminas.br     | 31991239711 |
+| João Gustavo Medeiros Pontes         | Gerente de DevOps          | Desenvolvedor Back-end           | joao.pontes@pucminas.br        | 31991239712 |
+| Sávio Luis Pontes Martuchelli        | Gerente Financeiro         | Analista de finanças             | savio.martuchelli@pucminas.br  | 31991239713 |
+| Victor Magalhães de Souza            | Gerente de Desenvolvimento | Desenvolvedor Front-End          | victor.souza@pucminas.br       | 31991239714 |
+| Lionel Ronaldo Arantes do Nascimento | CEO                        | Cliente                          | ronaldo.arantes@barsemlona.com | 31924305123 |
+| Simone Andrade dos Santos            | Arquiteta de Soluções      | Parceiro de implatanção em nuvem | simone.santos@parisgold.com    | 48912658294 |
 
 ## Avaliação das Partes Interessadas
 
-| Nome            | Expectativa no Projeto | Influência    | Importância / Poder | Apoio       | Observações   |
-|-----------------|------------------------|---------------|---------------------|-------------|---------------|
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-
-> Opções de avaliação:
-> - Expectativa: descrição da expectativa da parte interessada no projeto.
-> - - Ex.: Diminuição do tempo de realização das tarefas, aumento da produtividade, aumento da satisfação do cliente, etc.
-> - Influência: Alta, Média, Baixa
-> - Importância: Alta, Média, Baixa
-> - Apoio: Positivo, Negativo, Neutro
-> - Observações: Informações adicionais, para o cliente.
+| Nome                                 | Expectativas no projeto                                                                                   | Influência | Importância         | Apoio    | Observações                                          |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------|------------|---------------------|----------|------------------------------------------------------|
+| Pedro Henrique Cunha Vieira          | Desenvolvimento do Projeto de Maneira Efetiva e com Entregas no Prazo e Satisfação do Cliente e da Equipe | Alta       | Alta                | Apoiador | Gerente de Projeto                                   |
+| Caio Vitor Souza Fernandes           | Desenvolver uma aplicação que o Design seja 100% focado na experiência do Usuário                         | Alta       | Média               | Apoiador | Gerente de Qualidade - UX Designer                   |
+| João Gustavo Medeiros Pontes         | Ter um ótimo trabalho em equipe com sucesso na realização de todo o processo do Projeto                   | Alta       | Média               | Apoiador | Gerente de DevOps - Desenvolvedor Back-end           |
+| Sávio Luis Pontes Martuchelli        | Maior Rentabilidade para a Empresa                                                                        | Alta       | Média               | Apoiador | Gerente Financeiro - Analista de finanças            |
+| Victor Magalhães de Souza            | Ferramanenta Estável(Menor Taxa de Erros), com Front-End                                                  | Alta       | Média               | Apoiador | Gerente de Desenvolvimento - Desenvolvedor Front-End |
+| Lionel Ronaldo Arantes do Nascimento | Sistema completo que auxilie na organização domicilial dos usuários                                       | Alta       | Alta                | Apoiador | Cliente                                              |
+| Simone Andrade dos Santos            | Participar ativamente no desenvolvimento do projeto na área de Arquitetura de Solução                     | Alta       | Média               | Apoiador | Parceiro de implatanção em nuvem                     |
 
 ```diff
 + Tarefa 01
