@@ -187,24 +187,6 @@ A seguinte tabela descreve os reponsáveis pelas tarefas do crognograma do proje
 
 ## Plano de Qualidade
 
-> Referência - Conceitual
-> * https://www.researchgate.net/publication/230636169_Software_Quality_Assurance
-
-> Normas de Qualidade:
-> * https://repositorium.uminho.pt/bitstream/1822/27266/1/Tese_MEI_PG19676_Juliana%20Oliveira.pdf
-> * https://cin.ufpe.br/~processos/TAES3/Livro/00-LIVRO/07-Normas%20ISO%20e%20Qualidade%20de%20Software-v6_CORRIGIDO.pdf
-
-> Métricas de software:
-> * https://repositorio.unicamp.br/Busca/Download?codigoArquivo=489087
-> * https://lume.ufrgs.br/bitstream/handle/10183/66095/000870909.pdf?sequence=1
-> * https://www.computerweekly.com/br/tip/23-metricas-de-desenvolvimento-de-software-que-devem-ser-monitoradas
-
-> Processos de Garantia da Qualidade de Software
-> * https://ceur-ws.org/Vol-3200/paper22.pdf
-> * https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=d6bd60206282a2d4449e414e81a703612ef78a0c
-> * https://www.testbytes.net/blog/quality-assurance-process-methodology/
-> * https://www.projectmanager.com/blog/quality-assurance-and-testing
-
 ### Artefatos a serem verificados
 
 | Artefato                           | Tipo de verificação | Data      | Responsável             | Métrica aplicada           | Data limite p/ correção | Ação p/ não conformidade                                  | Respons. avaliação     | Respons. correção   |
