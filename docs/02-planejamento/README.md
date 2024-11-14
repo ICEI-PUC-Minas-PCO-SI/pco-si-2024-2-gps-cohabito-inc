@@ -269,33 +269,22 @@ Computadores providos com ferramentas de automação de teste de software e aces
 
 ## Plano de Comunicação
 
-...... DESCREVA SUCINTAMENTE O PLANO DE COMUNICAÇÃO UTILIZADO NO PROJETO ......
-
-> O Plano de Comunicação estabelece estratégias e diretrizes para facilitar a troca de informações entre os membros da equipe e as partes interessadas. 
-> Este plano abrange aspectos como os meios de comunicação, a frequência das atualizações, os canais de distribuição de informações e os responsáveis pela comunicação. 
-> Uma comunicação eficiente não apenas previne mal-entendidos e conflitos, mas também fortalece o engajamento da equipe e o apoio das partes interessadas. 
->
-> Você pode utilizar como referência o seguinte documento:
-- [Plano de Gerenciamento de Comunicação - Editável](artefatos/plano_comunicacao.docx)
-
 ### Plano de Comunicação do Projeto
-
-| Entregável                         | Público Alvo | Met. Comunicação | Frequência  | Responsável | 
-|------------------------------------|--------------|------------------|-------------|-------------|
-| Ata de reunião                     |              |                  |             |             |
-| Declaração de escopo               |              |                  |             |             |
-| WBS                                |              |                  |             |             |
-| Dicionário da WBS                  |              |                  |             |             |
-| Cronograma                         |              |                  |             |             |
-| Lista de Riscos                    |              |                  |             |             |
-| Plano de qualidade                 |              |                  |             |             |
-| Plano de projeto                   |              |                  |             |             |
-| Relatório de Progresso             |              |                  |             |             |
-| Relatório de Aderência ao Processo |              |                  |             |             |
-| Checklists de Inspeção             |              |                  |             |             |
-|                                    |              |                  |             |             |
-|                                    |              |                  |             |             |
-|                                    |              |                  |             |             |
+| Entregável                         | Público Alvo                                                                                  | Método de Comunicação    | Freqüência | Responsável                |
+|------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------|------------|----------------------------|
+| Ata de reunião                     | Equipe de Qualidade, <br>Cliente, Equipe de Desenvolvimento e Equipe de DEV OPS               | E-mail                   | Eventual   | Gerente de Projeto - Pedro |
+| Declaração de escopo               | Equipe de Qualidade, <br>Cliente, Equipe de Desenvolvimento e Equipe de DEV OPS               | Reunião Virtual e E-mail | Unitário   | Gerente de Projeto - Pedro |
+| WBS                                | Equipe de Qualidade, <br>Cliente, Equipe de Desenvolvimento e Equipe de DEV OPS               | Email                    | Unitário   | Gerente de Projeto - Pedro |
+| Dicionário da WBS                  | Equipe de Qualidade, <br>Cliente, Equipe de Desenvolvimento e Equipe de DEV OPS               | Email                    | Unitário   | Gerente de Projeto - Pedro |
+| Cronograma                         | Equipe de Qualidade, <br>Cliente, Terceiros , Equipe de Desenvolvimento e Equipe de DEV OPS   | Reunião Virtual e E-mail | Semanal    | Gerente de Projeto - Pedro |
+| Lista de Riscos                    | Equipe de Qualidade, Terceiros , Equipe de Desenvolvimento e Equipe de DEV OPS                | Reunião Virtual e E-mail | Semanal    | Gerente de Projeto - Pedro |
+| Plano de qualidade                 | Gerente de Projeto, <br>Cliente, Equipe de Desenvolvimento e Equipe de DEV OPS                | E-mail                   | Unitário   | Gerente Qualidade - Caio   |
+| Plano de projeto                   | Equipe de Qualidade, <br>Cliente, Equipe de Desenvolvimento e Equipe de DEV OPS               | Reunião Virtual e E-mail | Unitário   | Gerente de Projeto - Pedro |
+| Relatório de Progresso             | Equipe de Qualidade, <br>Cliente, Terceiro, Equipe de Desenvolvimento e Equipe de DEV OPS     | Reunião Virtual e E-mail | Semanal    | Gerente de Projeto - Pedro |
+| Relatório de Aderência ao Processo | Equipe de Qualidade, <br>Equipe de Desenvolvimento e Equipe de DEV OPS                        | E-mail                   | Semanal    | Gerente de Projeto - Pedro |
+| Checklists de Inspeção             | Equipe de Qualidade, <br>Equipe de Desenvolvimento e Equipe de DEV OPS                        | E-mail                   | Mensal     | Gerente de Projeto - Pedro |
+| Planejamento de Custos             | Equipe de Qualidade, Cliente ,<br>Terceiro ,<br>Equipe de Desenvolvimento e Equipe de DEV OPS | E-mail                   | Unitário   | Gerente Finanças - Sávio   |
+| Progresso de Atividades            | Equipe de Qualidade, <br>Equipe de Desenvolvimento e Equipe de DEV OPS                        | Reunião Virtual          | Diário     | Gerente de Projeto - Pedro |
 
 > Legenda:
 > - Público: a quem se destina a comunicação.
@@ -304,27 +293,31 @@ Computadores providos com ferramentas de automação de teste de software e aces
 > - Responsável: pessoa responsável pela comunicação.
 
 ### Plano de Gerência de Comunicação
+Ferramenta: GitHub, Confluence, Office 365 e Figma
 
-> Indique:
-> - Ferramentas utilizadas no projeto - adicionar link de acesso às ferramentas
-> - Papéis: responsáveis pelas correspondentes no projeto
-> - Princípios gerais: indica quais princípios serão adotados no plano de comunicação, como clareza, objetividade, impessoalidade, imparcialidade e cordialidade. Detalhar.
->
-> Plano de Gerência de Configuração: definir, em linhas gerais, como (ferramenta) serão controladas e distribuídas as versões e se haverá algum controle de responsabilidades.
+Papéis: 
+- Gerente de Projeto - Pedro
+- Gerente de Finanças - Sávio
+- Gerente de Desenvolvimento Front-End - Vitor
+- Gerente de Qualidade - Caio
+- Gerente de DEV-OPS - João
 
-- Ferramentas utilizadas:
-- - [Ferramenta 01](https://pucminas.br)
-  - [Ferramenta 02](https://pucminas.br)
-  - [Ferramenta 03](https://pucminas.br)
-- Papéis:
-- - ...
-  - ...
-  - ...
-- Princípios gerais
-- - ...
-  - ...
-  - ...
-  - ...
+Princípios gerais: 
+- Toda Sexta-Feira publicar cronograma atualizado até 12:00 .
+- Responder mensagens em no máximo 24 horas.
+- Ao realizar commit inserir comentário com descrição das alterações realizadas.
+- Em documentos oficiais definir termos utilizados de outras línguas e jargões.
+- Endereçar e-mail’s ao grupo focal e em cópia aos demais interessados.
+- Não abordar mais de um tema principal por comunicação.
+- Não utilizar comunicação agressiva
+- Imprevistos devem ser comunicados antecipadamente
+
+Ferramentas utilizadas:
+- https://www.figma.com/
+- https://www.atlassian.com/br/software/confluence
+- https://github.com/
+- https://www.office.com/
+
 
 ```diff
 + Tarefa 11:
