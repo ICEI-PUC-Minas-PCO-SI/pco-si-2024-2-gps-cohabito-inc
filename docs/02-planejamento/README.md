@@ -331,55 +331,18 @@ Ferramentas utilizadas:
 
 ## Plano de Riscos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> O plano de riscos busca antecipar, avaliar e mitigar os desafios potenciais que podem surgir ao longo do projeto. 
-> Este documento estratégico oferece uma visão global dos riscos, categorizando-os e delineando estratégias para lidar com cada uma das possíveis adversidades. 
-> Inicialmente, é realizada a identificação detalhada dos riscos, abrangendo desde ameaças imprevistas até oportunidades que podem ser exploradas. 
-> Uma vez catalogados, os riscos são avaliados quanto à sua probabilidade de ocorrência e impacto, permitindo a priorização e foco em áreas críticas.
->
-> O plano de riscos não apenas destaca os perigos em potencial, mas também estabelece respostas e estratégias de contingência. 
-> Isso inclui a definição de ações preventivas para mitigar riscos antes que se materializem, bem como estratégias de mitigação para minimizar seu impacto se ocorrerem. 
-> Além disso, a identificação de pontos de monitoramento contínuo ao longo do projeto permite uma resposta ágil às mudanças nas condições do ambiente.
->
-> Você pode utilizar como referência o seguinte documento:
-- [Plano de Gerenciamento de Riscos - Editável](artefatos/plano_riscos.xls)
-
-| Categoria do Risco  | Descrição do Risco | Impacto       | Risco         | Medidas de Prevenção (Contramedidas) | Medidas de Contingência (Mitigação) | 
-|---------------------|--------------------|---------------|---------------|--------------------------------------|-------------------------------------|
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-
-> Indique:
-> Categoria do Risco: *ex.: Cliente, Cronograma, Orçamento, Aquisição de produtos, etc*
-> Descrição do Risco: *ex.: Cliente não aparenta ter muito interesse no projeto*
-> Impacto: *Baixo / Médio / Alto*
-> Risco: *Baixo / Médio / Alto*
-> Medidas de Prevenção: *Medidas que devem ser adotadas para evitar que o risco se concretize*
-> Medidas de Contingência: *Medidas que devem ser adotadas caso o risco se concretize*
->
-> *Obs.: Para determinar o risco considere a seguinte combinação entre Probabilidade e Impacto:
-
-| Probabilidade | Impacto       | Risco         |
-|---------------|---------------|---------------|
-| Baixo         | Baixo         | Baixo         |
-| Médio         | Médio         | Médio         |
-| Alto          | Alto          | Alto          |
-| Baixo         | Médio         | Médio         |
-| Médio         | Baixo         | Médio         |
-| Baixo         | Alto          | Médio         |
-| Alto          | Baixo         | Médio         |
-| Médio         | Alto          | Alto          |
-| Alto          | Médio         | Alto          |
+| Id. | Categoria do Risco | Descrição do Risco                                                      | Probabilidade | Impacto | Risco | Medidas de prevenção (contramedidas)                                      | Medidas de contingência (mitigação)                                   |
+|-----|--------------------|-------------------------------------------------------------------------|---------------|---------|-------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| R1  | Cliente            | Cliente solicitou novo requisito que afeta a entrega                    | Médio         | Alto    | Alto  | Possuir tempo extra destinado para imprevistos no projeto                 | Possuir cronograma de planejamento com entregas já definidas          |
+| R2  | Terceiro           | Terceiro não disponibiliza o servidor                                   | Baixo         | Alto    | Médio | Solicitar atualizações recorrentes sobre o progresso                      | Possuir outras possibilidades de fornecedores                         |
+| R3  | Estagiário         | Estagiário não realiza os testes e devidas correções                    | Baixo         | Alto    | Médio | Acompanhar as realizações dos testes                                      | Equipe de desenvolvimento realizar os testes que não foram realizados |
+| R4  | Repositorio        | Erro ao manipular o repositorio do projeto, resultando em perdas        | Baixo         | Alto    | Médio | Realizar Backups semanais e armazenar em nuvem                            | Buscar a versão mais recente do projeto que foi salva                 |
+| R5  | Financeiro         | Erro no planejamento de custos e/ou imprevistos de gastos extra         | Médio         | Alto    | Alto  | Possuir fundo de emergencia para gastos extras                            | Realocar recursos de investimentos                                    |
+| R6  | Entrega            | Atraso na entrega do projeto                                            | Médio         | Alto    | Alto  | Realizar reuniões semanais para acompanhar o progresso do projeto         | Realocar recursos para entregar o projeto o mais rapido possível      |
+| R7  | Materiais          | Ocorrer falha em máquina e não possuir reserva                          | Baixo         | Alto    | Médio | Realizar ação preventiva e corretiva, com manutenção periódica            | Utilizar uma maquina pessoal                                          |
+| R8  | Cliente            | Cliente desistiu do projeto                                             | Baixo         | Alto    | Médio | Manter o cliente atualizado com reuniões mostrando o progresso do projeto | Buscar outro cliente interassado no projeto ou novos investidores     |
+| R9  | Segurança          | A aplicação sofrer ataques de invasão devido à vunerabilidade do código | Médio         | Alto    | Alto  | Realizar revisões do código e manter os servidores atualizados            | Derrubar o servidor, corrigir o código e subir o backup               |
+| R10 | RH                 | Colaborador não comparecer à uma daily                                  | Médio         | Baixo   | Médio | Incentivar o uso do calendário                                            | Registrar a ata da reunião                                            |
 
 
 ```diff
@@ -388,9 +351,5 @@ Ferramentas utilizadas:
 ```
 
 -----
-
-
-
-
 
 
