@@ -1,5 +1,3 @@
-# Planejamento
-
 # Estrutura do Documento
 
 - [Fase de Planejamento](#planejamento)
