@@ -246,16 +246,33 @@ Computadores providos com ferramentas de automação de teste de software e aces
 
 ## Plano de Aquisição
 
-> O Plano de Aquisições define o processo relacionado à aquisição de bens e serviços necessários para a execução do projeto. 
-> Este plano abrange a identificação de necessidades, a seleção de fornecedores, a elaboração de contratos, e a gestão do relacionamento com os fornecedores durante do ciclo de vida do projeto. 
-> O Plano de Aquisições visa garantir a aquisição eficiente e eficaz dos recursos necessários, minimizando riscos e custos. 
-> Além disso, ele proporciona transparência nas relações com fornecedores, promovendo a conformidade com os prazos estabelecidos e padrões de qualidade. 
+*Serivdor*
+- Servidor banco de dados
+- Quantidade: 01
+- Justificativa: Armazenar informações e dados dos usuários e utilização dos ambientes de front-end e back-end.
 
-### Documento Editável
+*Modelo e  Especificações*
+- Modelo do Processador: Processadores Intel Xeon escalável de 4.ª geração (Sapphire Rapids 8488C) de até 3,2 GHz
+- Quantidade de Núcleos: 192
+- Memória RAM: Memória DDR5-5600
+- Discos de Armazenamento: 4x SSD NVMe de 3800
 
-> Você deve atualiza o seguinte link (ou link correspondente), como o arquivo editável de geração da WBS:
-- [Especificação Produto Aquisição - Editável](artefatos/aquisicao_produtos.docx)
+*Requisitos*
+- Disponibilidade 24/7
+- Suporte Técnico
+- Baixa Manutenção
+- Baixa Latência
+- Capacidade de Processamento Paralelo
+- Escalabilidade e Desempenho
+- Segurança de Dados (Auditoria, Monitoramento, Controle de Acesso e etc)
+- Baixo Consumo de Energia
+- Gerenciamento Remoto
 
+| Fornecedor   | Valor unitário | Valor total |
+|--------------|----------------|-------------|
+| AWS          | R$ 2,78/hora   | R$ 6.338,40 |
+| Google Cloud | $ 2.050,92/mês | R$ 8.203,68 |
+| Azure        | R$3,66/hora    | R$ 8.344,80 |
 
 ```diff
 + Tarefa 10:
